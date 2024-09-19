@@ -24,6 +24,15 @@ class linkedlist {
         curr.next = new Node(val);
     }
 
+    print() {
+        let str = '' ;
+        let curr = this.head
+        while(curr !== null) {
+            str += curr.val + '->'
+            curr = curr.next;
+        }
+        console.log (str);
+    }
 }
 
 const list = new linkedlist();
@@ -31,4 +40,4 @@ list.append('a');
 list.append('b');
 list.append('c');
 list.append('d');
-console.log (list.head);
+list.print();
