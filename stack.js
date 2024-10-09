@@ -41,8 +41,8 @@ myStack.push('a');
 myStack.push('b');
 myStack.push('c')
 
-// console.log(myStack.size);
-// console.log(myStack.top);
-// console.log(myStack.getTop());
-console.log(myStack.pop());
 console.log(myStack.size);
+console.log(myStack.top);
+// console.log(myStack.getTop());
+// console.log(myStack.pop());
+// console.log(myStack.size);
